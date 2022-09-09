@@ -7,6 +7,7 @@ import { SiteNavbarComponent } from './site-navbar/site-navbar.component';
 import { SiteFooterComponent } from './site-footer/site-footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { SinglePalComponent } from './single-pal/single-pal.component';
+import { ReferralLinkComponent } from './referral-link/referral-link.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SinglePalComponent } from './single-pal/single-pal.component';
     SiteNavbarComponent,
     SiteFooterComponent,
     SidebarComponent,
-    SinglePalComponent
+    SinglePalComponent,
+    ReferralLinkComponent
   ],
   imports: [
     BrowserModule,
