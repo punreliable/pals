@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SiteNavbarComponent } from './site-navbar/site-navbar.component';
 import { SiteFooterComponent } from './site-footer/site-footer.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { SinglePalComponent } from './single-pal/single-pal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SiteNavbarComponent,
-    SiteFooterComponent
+    SiteFooterComponent,
+    SidebarComponent,
+    SinglePalComponent
   ],
   imports: [
     BrowserModule,
