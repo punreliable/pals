@@ -59,14 +59,12 @@ Thumbs.db
 
 /.idea
 /vendor
+/node_modules
 /.phpunit/
 /.scannerwork/
 SonarPushFile
 /tests/_report/
 /tests/_output/
-/htdocs.bak.zip
-/testing.bak.zip
-/wp-content.bak.zip
 /codeception-params.local.env
 .phpunit.result.cache
 
