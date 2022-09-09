@@ -65,6 +65,9 @@ Thumbs.db
 SonarPushFile
 /tests/_report/
 /tests/_output/
+/htdocs.bak.zip
+/testing.bak.zip
+/wp-content.bak.zip
 /codeception-params.local.env
 .phpunit.result.cache
 
@@ -72,4 +75,3 @@ SonarPushFile
 # .htaccess, makes it only for local development #
 ##################################################
 .htaccess
-
