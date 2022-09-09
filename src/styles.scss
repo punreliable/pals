@@ -1,3 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import 'styles/variables';
+@import 'assets/fonts/inter/inter.scss';
+
+body {
+
+background-color: $color-bg;
+    background-image: url( 'assets/DistantLands.jpg' );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+}
+h1, .h1, 
+h2, .h2, 
+h3, .h3, 
+h4, .h4, 
+h5, .h5, 
+h6, .h6, 
+p, .p {
+
+font-family: $font-primary;
+
+}
